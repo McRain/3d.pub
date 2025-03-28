@@ -1,0 +1,42 @@
+
+.vertflex {
+&[data-v-22455150] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row {
+&[data-v-22455150] {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+}
+.line[data-v-22455150] {}
+.flex-line {
+&[data-v-22455150] {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+}
+.line-title[data-v-22455150] {
+                display: flex;
+                gap: 15px;
+}
+.value-title[data-v-22455150] {
+                display: flex;
+                justify-content: flex-end;
+}
+}
+.flex-fit[data-v-22455150] {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+}
+}
+}
+label[data-v-22455150] {
+    display: block;
+    margin-bottom: 10px;
+}
+

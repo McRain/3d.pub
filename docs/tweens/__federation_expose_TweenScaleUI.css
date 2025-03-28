@@ -1,0 +1,42 @@
+
+.vertflex {
+&[data-v-ac5d6e18] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row {
+&[data-v-ac5d6e18] {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+}
+.line[data-v-ac5d6e18] {}
+.flex-line {
+&[data-v-ac5d6e18] {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+}
+.line-title[data-v-ac5d6e18] {
+                display: flex;
+                gap: 15px;
+}
+.value-title[data-v-ac5d6e18] {
+                display: flex;
+                justify-content: flex-end;
+}
+}
+.flex-fit[data-v-ac5d6e18] {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+}
+}
+}
+label[data-v-ac5d6e18] {
+    display: block;
+    margin-bottom: 10px;
+}
+

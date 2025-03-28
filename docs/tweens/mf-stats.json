@@ -1,0 +1,252 @@
+{
+  "id": "modules",
+  "name": "modules",
+  "metaData": {
+    "name": "modules",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/presentation.tweens"
+    },
+    "remoteEntry": {
+      "name": "mod.mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "modules",
+    "pluginVersion": "0.9.0",
+    "prefetchInterface": false,
+    "publicPath": "/tweens/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "shareScope": "default",
+      "import": "@reneos/app",
+      "shareKey": "@reneos/app",
+      "eager": false,
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "id": "modules:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "302.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./modules"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^25.0.0",
+      "shareScope": "default",
+      "import": "@tweenjs/tween.js",
+      "shareKey": "@tweenjs/tween.js",
+      "eager": false,
+      "name": "@tweenjs/tween.js",
+      "version": "25.0.0",
+      "id": "modules:@tweenjs/tween.js",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "40.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./TweenScale",
+        "./TweenPos"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "shareScope": "default",
+      "import": "vue",
+      "shareKey": "vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "eager": false,
+      "id": "modules:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "31.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./modules"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "modules",
+      "consumingFederationContainerName": "modules",
+      "federationContainerName": "modules",
+      "moduleName": "TweenScaleUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/modules/mod.mf.js"
+    },
+    {
+      "alias": "modules",
+      "consumingFederationContainerName": "modules",
+      "federationContainerName": "modules",
+      "moduleName": "TweenPosUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/modules/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./modules",
+      "id": "modules:modules",
+      "name": "modules",
+      "requires": [
+        "@reneos/app",
+        "vue"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_modules.js"
+          ],
+          "async": [
+            "302.js",
+            "31.js",
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./TweenScaleUI",
+      "id": "modules:TweenScaleUI",
+      "name": "TweenScaleUI",
+      "requires": [],
+      "file": "src\\tweens\\TweenScaleUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenScaleUI.js"
+          ],
+          "async": [
+            "31.js",
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenScaleUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./TweenScale",
+      "id": "modules:TweenScale",
+      "name": "TweenScale",
+      "requires": [
+        "@tweenjs/tween.js"
+      ],
+      "file": "src\\tweens\\TweenScale.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenScale.js"
+          ],
+          "async": [
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./TweenPosUI",
+      "id": "modules:TweenPosUI",
+      "name": "TweenPosUI",
+      "requires": [],
+      "file": "src\\tweens\\TweenPosUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenPosUI.js"
+          ],
+          "async": [
+            "31.js",
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenPosUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./TweenPos",
+      "id": "modules:TweenPos",
+      "name": "TweenPos",
+      "requires": [
+        "@tweenjs/tween.js"
+      ],
+      "file": "src\\tweens\\TweenPos.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenPos.js"
+          ],
+          "async": [
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

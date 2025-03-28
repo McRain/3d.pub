@@ -1,0 +1,205 @@
+{
+  "id": "modules",
+  "name": "modules",
+  "metaData": {
+    "name": "modules",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/presentation.tweens"
+    },
+    "remoteEntry": {
+      "name": "mod.mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "modules",
+    "pluginVersion": "0.9.0",
+    "prefetchInterface": false,
+    "publicPath": "/tweens/"
+  },
+  "shared": [
+    {
+      "id": "modules:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "302.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "modules:@tweenjs/tween.js",
+      "name": "@tweenjs/tween.js",
+      "version": "25.0.0",
+      "singleton": true,
+      "requiredVersion": "^25.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "40.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "modules:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "31.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "modules",
+      "moduleName": "TweenScaleUI",
+      "alias": "modules",
+      "entry": "/modules/mod.mf.js"
+    },
+    {
+      "federationContainerName": "modules",
+      "moduleName": "TweenPosUI",
+      "alias": "modules",
+      "entry": "/modules/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "modules:modules",
+      "name": "modules",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_modules.js"
+          ],
+          "async": [
+            "302.js",
+            "31.js",
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./modules"
+    },
+    {
+      "id": "modules:TweenScaleUI",
+      "name": "TweenScaleUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenScaleUI.js"
+          ],
+          "async": [
+            "31.js",
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenScaleUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./TweenScaleUI"
+    },
+    {
+      "id": "modules:TweenScale",
+      "name": "TweenScale",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenScale.js"
+          ],
+          "async": [
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./TweenScale"
+    },
+    {
+      "id": "modules:TweenPosUI",
+      "name": "TweenPosUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenPosUI.js"
+          ],
+          "async": [
+            "31.js",
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenPosUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./TweenPosUI"
+    },
+    {
+      "id": "modules:TweenPos",
+      "name": "TweenPos",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_TweenPos.js"
+          ],
+          "async": [
+            "40.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./TweenPos"
+    }
+  ]
+}

@@ -38,7 +38,7 @@
       "assets": {
         "js": {
           "async": [
-            "922.bundle.js",
+            "815.bundle.js",
             "908.bundle.js",
             "479.bundle.js",
             "261.bundle.js",
@@ -75,7 +75,7 @@
       "assets": {
         "js": {
           "async": [
-            "922.bundle.js",
+            "815.bundle.js",
             "908.bundle.js",
             "479.bundle.js",
             "261.bundle.js",
@@ -96,8 +96,34 @@
         }
       },
       "usedIn": [
-        "./TweenPos",
-        "./TweenScale"
+        "./TweenScale",
+        "./TweenPos"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.173.0",
+      "shareScope": "default",
+      "import": "three",
+      "shareKey": "three",
+      "eager": false,
+      "name": "three",
+      "version": "0.173.0",
+      "id": "tweens:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "815.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./TweenPos"
       ]
     },
     {
@@ -113,7 +139,7 @@
       "assets": {
         "js": {
           "async": [
-            "922.bundle.js",
+            "815.bundle.js",
             "908.bundle.js",
             "479.bundle.js",
             "261.bundle.js",
@@ -173,10 +199,11 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "908.bundle.js"
           ],
-          "async": []
+          "async": [
+            "815.bundle.js"
+          ]
         },
         "css": {
           "sync": [],
@@ -235,10 +262,11 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "927.bundle.js"
           ],
-          "async": []
+          "async": [
+            "815.bundle.js"
+          ]
         },
         "css": {
           "sync": [
@@ -253,16 +281,18 @@
       "id": "tweens:TweenPos",
       "name": "TweenPos",
       "requires": [
-        "@tweenjs/tween.js"
+        "@tweenjs/tween.js",
+        "three"
       ],
       "file": "src\\tweens\\TweenPos.js",
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "637.bundle.js"
           ],
-          "async": []
+          "async": [
+            "815.bundle.js"
+          ]
         },
         "css": {
           "sync": [],

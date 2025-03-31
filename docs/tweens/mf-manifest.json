@@ -34,7 +34,7 @@
       "assets": {
         "js": {
           "async": [
-            "922.bundle.js",
+            "815.bundle.js",
             "908.bundle.js",
             "479.bundle.js",
             "261.bundle.js",
@@ -64,7 +64,7 @@
       "assets": {
         "js": {
           "async": [
-            "922.bundle.js",
+            "815.bundle.js",
             "908.bundle.js",
             "479.bundle.js",
             "261.bundle.js",
@@ -86,6 +86,25 @@
       }
     },
     {
+      "id": "tweens:three",
+      "name": "three",
+      "version": "0.173.0",
+      "singleton": true,
+      "requiredVersion": "^0.173.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "815.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "tweens:vue",
       "name": "vue",
       "version": "3.5.13",
@@ -94,7 +113,7 @@
       "assets": {
         "js": {
           "async": [
-            "922.bundle.js",
+            "815.bundle.js",
             "908.bundle.js",
             "479.bundle.js",
             "261.bundle.js",
@@ -137,10 +156,11 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "908.bundle.js"
           ],
-          "async": []
+          "async": [
+            "815.bundle.js"
+          ]
         },
         "css": {
           "sync": [],
@@ -191,10 +211,11 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "927.bundle.js"
           ],
-          "async": []
+          "async": [
+            "815.bundle.js"
+          ]
         },
         "css": {
           "sync": [
@@ -211,10 +232,11 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "637.bundle.js"
           ],
-          "async": []
+          "async": [
+            "815.bundle.js"
+          ]
         },
         "css": {
           "sync": [],

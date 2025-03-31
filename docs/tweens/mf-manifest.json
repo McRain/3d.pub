@@ -1,15 +1,15 @@
 {
-  "id": "modules",
-  "name": "modules",
+  "id": "tweens",
+  "name": "tweens",
   "metaData": {
-    "name": "modules",
+    "name": "tweens",
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.1",
-      "buildName": "@reneos/presentation.tweens"
+      "buildName": "@reneos/3d.mod.tweens"
     },
     "remoteEntry": {
-      "name": "mod.mf.js",
+      "name": "mf.js",
       "path": "",
       "type": "global"
     },
@@ -19,65 +19,98 @@
       "zip": "",
       "api": ""
     },
-    "globalName": "modules",
+    "globalName": "tweens",
     "pluginVersion": "0.9.0",
     "prefetchInterface": false,
     "publicPath": "/tweens/"
   },
   "shared": [
     {
-      "id": "modules:@reneos/app",
+      "id": "tweens:@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
       "singleton": true,
       "requiredVersion": "^1.0.6",
       "assets": {
         "js": {
-          "async": [],
+          "async": [
+            "922.bundle.js",
+            "908.bundle.js",
+            "479.bundle.js",
+            "261.bundle.js",
+            "927.bundle.js",
+            "637.bundle.js"
+          ],
           "sync": [
-            "302.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
-          "async": [],
+          "async": [
+            "__federation_expose_TweenScaleUI.css",
+            "__federation_expose_TweenPosUI.css"
+          ],
           "sync": []
         }
       }
     },
     {
-      "id": "modules:@tweenjs/tween.js",
+      "id": "tweens:@tweenjs/tween.js",
       "name": "@tweenjs/tween.js",
       "version": "25.0.0",
       "singleton": true,
       "requiredVersion": "^25.0.0",
       "assets": {
         "js": {
-          "async": [],
+          "async": [
+            "922.bundle.js",
+            "908.bundle.js",
+            "479.bundle.js",
+            "261.bundle.js",
+            "927.bundle.js",
+            "637.bundle.js"
+          ],
           "sync": [
-            "40.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
-          "async": [],
+          "async": [
+            "__federation_expose_TweenScaleUI.css",
+            "__federation_expose_TweenPosUI.css"
+          ],
           "sync": []
         }
       }
     },
     {
-      "id": "modules:vue",
+      "id": "tweens:vue",
       "name": "vue",
       "version": "3.5.13",
       "singleton": true,
       "requiredVersion": "^3.5.13",
       "assets": {
         "js": {
-          "async": [],
+          "async": [
+            "922.bundle.js",
+            "908.bundle.js",
+            "479.bundle.js",
+            "261.bundle.js",
+            "927.bundle.js",
+            "637.bundle.js"
+          ],
           "sync": [
-            "31.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
-          "async": [],
+          "async": [
+            "__federation_expose_TweenScaleUI.css",
+            "__federation_expose_TweenPosUI.css"
+          ],
           "sync": []
         }
       }
@@ -85,52 +118,46 @@
   ],
   "remotes": [
     {
-      "federationContainerName": "modules",
+      "federationContainerName": "tweens",
       "moduleName": "TweenScaleUI",
-      "alias": "modules",
-      "entry": "/modules/mod.mf.js"
+      "alias": "tweens",
+      "entry": "/tweens/mod.mf.js"
     },
     {
-      "federationContainerName": "modules",
+      "federationContainerName": "tweens",
       "moduleName": "TweenPosUI",
-      "alias": "modules",
-      "entry": "/modules/mod.mf.js"
+      "alias": "tweens",
+      "entry": "/tweens/mod.mf.js"
     }
   ],
   "exposes": [
     {
-      "id": "modules:modules",
-      "name": "modules",
+      "id": "tweens:tweens",
+      "name": "tweens",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_modules.js"
+            "922.bundle.js",
+            "908.bundle.js"
           ],
-          "async": [
-            "302.js",
-            "31.js",
-            "40.js"
-          ]
+          "async": []
         },
         "css": {
           "sync": [],
           "async": []
         }
       },
-      "path": "./modules"
+      "path": "./tweens"
     },
     {
-      "id": "modules:TweenScaleUI",
+      "id": "tweens:TweenScaleUI",
       "name": "TweenScaleUI",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_TweenScaleUI.js"
+            "479.bundle.js"
           ],
-          "async": [
-            "31.js",
-            "40.js"
-          ]
+          "async": []
         },
         "css": {
           "sync": [
@@ -142,16 +169,14 @@
       "path": "./TweenScaleUI"
     },
     {
-      "id": "modules:TweenScale",
+      "id": "tweens:TweenScale",
       "name": "TweenScale",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_TweenScale.js"
+            "261.bundle.js"
           ],
-          "async": [
-            "40.js"
-          ]
+          "async": []
         },
         "css": {
           "sync": [],
@@ -161,17 +186,15 @@
       "path": "./TweenScale"
     },
     {
-      "id": "modules:TweenPosUI",
+      "id": "tweens:TweenPosUI",
       "name": "TweenPosUI",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_TweenPosUI.js"
+            "922.bundle.js",
+            "927.bundle.js"
           ],
-          "async": [
-            "31.js",
-            "40.js"
-          ]
+          "async": []
         },
         "css": {
           "sync": [
@@ -183,16 +206,15 @@
       "path": "./TweenPosUI"
     },
     {
-      "id": "modules:TweenPos",
+      "id": "tweens:TweenPos",
       "name": "TweenPos",
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_TweenPos.js"
+            "922.bundle.js",
+            "637.bundle.js"
           ],
-          "async": [
-            "40.js"
-          ]
+          "async": []
         },
         "css": {
           "sync": [],

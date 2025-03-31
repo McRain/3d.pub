@@ -1,12 +1,12 @@
 {
-  "id": "presentation.editor",
-  "name": "presentation.editor",
+  "id": "3d.editor",
+  "name": "3d.editor",
   "metaData": {
-    "name": "presentation.editor",
+    "name": "3d.editor",
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.1",
-      "buildName": "@reneos/presentation.editor"
+      "buildName": "@reneos/3d.editor"
     },
     "remoteEntry": {
       "name": "",
@@ -19,7 +19,7 @@
       "zip": "",
       "api": ""
     },
-    "globalName": "presentation.editor",
+    "globalName": "3d.editor",
     "pluginVersion": "0.9.0",
     "prefetchInterface": false,
     "publicPath": "/editor/"
@@ -34,22 +34,19 @@
       "shareKey": "@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
-      "id": "presentation.editor:@reneos/app",
+      "id": "3d.editor:@reneos/app",
       "assets": {
         "js": {
-          "async": [
-            "21.js",
-            "31.js"
-          ],
+          "async": [],
           "sync": [
-            "main.js"
+            "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "21.css"
-          ],
-          "sync": []
+          "async": [],
+          "sync": [
+            "main.css"
+          ]
         }
       },
       "usedIn": []
@@ -60,20 +57,22 @@
       "shareScope": "default",
       "import": "vue",
       "shareKey": "vue",
+      "eager": true,
       "name": "vue",
       "version": "3.5.13",
-      "eager": false,
-      "id": "presentation.editor:vue",
+      "id": "3d.editor:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "31.js"
+            "bundle.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": []
+          "sync": [
+            "main.css"
+          ]
         }
       },
       "usedIn": []

@@ -45,7 +45,7 @@ h3 {
 
 
 .slide-scroller {
-&[data-v-f592c1d0] {
+&[data-v-b7aa882c] {
     overflow-x: auto;
     overflow-y: hidden;
     /* Enable horizontal scrolling */
@@ -54,13 +54,13 @@ h3 {
     -webkit-overflow-scrolling: touch;
 }
 .slide-container {
-&[data-v-f592c1d0] {
+&[data-v-b7aa882c] {
         display: inline-block;
         transition: transform 0.3s ease;
         /* Add a smooth transition */
 }
 .slide-item {
-&[data-v-f592c1d0] {
+&[data-v-b7aa882c] {
             width: 96px;
             height: 128px;
             display: inline-block;
@@ -70,21 +70,21 @@ h3 {
             transition: border-color 0.2s ease;
             position: relative;
 }
-.title[data-v-f592c1d0] {
+.title[data-v-b7aa882c] {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 16px;
 }
-&.selected[data-v-f592c1d0] {
+&.selected[data-v-b7aa882c] {
                 border-color: #007bffa9;
                 /* Highlight the selected image */
 }
-img[data-v-f592c1d0] {
+img[data-v-b7aa882c] {
                 width: 100%;
                 height: auto;
 }
-.overflow[data-v-f592c1d0] {
+.overflow[data-v-b7aa882c] {
                 position: absolute;
                 top: 0;
                 bottom: 0;

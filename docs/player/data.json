@@ -67,7 +67,7 @@
         },
         {
             "uid": "lion_head_1k",
-            "url": "./assets/lion_head_1k.gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/lion_head_1k.gltf",
             "type": "gltf",
             "parameters": {
                 "clone": false
@@ -80,7 +80,7 @@
         },
         {
             "uid": "horse_head_1k",
-            "url": "./assets/horse_head_1k.gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/horse_head_1k.gltf",
             "type": "gltf",
             "parameters": {
                 "clone": false
@@ -93,7 +93,7 @@
         },
         {
             "uid": "round_wooden_table_02_1k",
-            "url": "./assets/round_wooden_table_02_1k.gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/round_wooden_table_02_1k.gltf",
             "type": "gltf",
             "shadow": {
                 "cast": true,
@@ -103,7 +103,7 @@
         },
         {
             "uid": "wood_floor_deck_1k",
-            "url": "./assets/floor.glb",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/floor.glb",
             "type": "gltf",
             "shadow": {
                 "cast": true,
@@ -113,7 +113,7 @@
         },
         {
             "uid": "hexagon",
-            "url": "./assets/hexagon.glb",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/hexagon.glb",
             "type": "gltf",
             "parameters": {
                 "clone": true
@@ -133,7 +133,7 @@
         },
         {
             "uid": "hdrscene",
-            "url": "./assets/kloofendal_43d_clear_puresky_1k.hdr",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/kloofendal_43d_clear_puresky_1k.hdr",
             "type": "hdr"
         }
     ],

@@ -699,7 +699,7 @@ button[data-v-1faf8c1a] {
     font-size: 1.25em;
 }
 
-.hierarhy-view[data-v-6e50cee2]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-6e50cee2]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-6e50cee2]{display:flex;gap:3px}.treeicon .svgicon[data-v-6e50cee2]{cursor:pointer}.label[data-v-6e50cee2]{cursor:pointer}
+.hierarhy-view[data-v-443d8047]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-443d8047]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-443d8047]{display:flex;gap:3px}.treeicon .svgicon[data-v-443d8047]{cursor:pointer}.label[data-v-443d8047]{cursor:pointer}
 .hierarhy-view[data-v-6ef676d2]{overflow-y:auto;overflow-x:hidden}.focusedtree[data-v-6ef676d2]{color:var(--text-focused);background-color:var(--bg-focused)}.label[data-v-6ef676d2]{cursor:pointer}
 .editor-container{
 	position: relative;

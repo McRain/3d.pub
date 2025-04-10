@@ -1,0 +1,941 @@
+{
+    "actions": {
+        "tweenmove": {
+            "uid": "tweenmove",
+            "type": "TweenPos",
+            "delay": 0,
+            "time": 300,
+            "from": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "to": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 3
+                }
+            },
+            "easing": "Easing.Linear.InOut",
+            "repeat": 0,
+            "yoyo": false
+        },
+        "tweenrotate": {
+            "uid": "tweenrotate",
+            "type": "TweenRotation",
+            "delay": 1,
+            "time": 500,
+            "from": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "to": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": -1.4660765716752369,
+                    "z": 0
+                }
+            },
+            "easing": "Easing.Linear.InOut",
+            "repeat": 0,
+            "yoyo": false
+        }
+    },
+    "assets": [
+        {
+            "uid": "bull_head_1k",
+            "url": "./assets/bull_head_1k.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": false
+            },
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "lion_head_1k",
+            "url": "./assets/lion_head_1k.gltf",
+            "type": "gltf",
+            "parameters": {
+                "clone": false
+            },
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "horse_head_1k",
+            "url": "./assets/horse_head_1k.gltf",
+            "type": "gltf",
+            "parameters": {
+                "clone": false
+            },
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "round_wooden_table_02_1k",
+            "url": "./assets/round_wooden_table_02_1k.gltf",
+            "type": "gltf",
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "wood_floor_deck_1k",
+            "url": "./assets/floor.glb",
+            "type": "gltf",
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "hexagon",
+            "url": "./assets/hexagon.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene",
+            "transform": {
+                "scale": {
+                    "x": 0.1,
+                    "y": 0.1,
+                    "z": 0.1
+                }
+            }
+        },
+        {
+            "uid": "hdrscene",
+            "url": "./assets/kloofendal_43d_clear_puresky_1k.hdr",
+            "type": "hdr"
+        }
+    ],
+    "elements": [
+        {
+            "uid": "cam1",
+            "type": "camera",
+            "path": "cam1",
+            "paths": [
+                "cam1"
+            ]
+        },
+        {
+            "type": "block",
+            "uid": "light",
+            "path": "light",
+            "name": "Light",
+            "paths": [
+                "light"
+            ],
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            },
+            "childrens": [
+                {
+                    "type": "AmbientLight",
+                    "uid": "AmbientLight",
+                    "path": "light.AmbientLight",
+                    "name": "Ambient Light",
+                    "args": [],
+                    "paths": [
+                        "light",
+                        "AmbientLight"
+                    ],
+                    "properties": {
+                        "intensity": 0.2,
+                        "color": {
+                            "type": "Color",
+                            "args": [
+                                "#ffffff"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "DirectLight",
+                    "uid": "DirectionalLight",
+                    "path": "sun.DirectionalLight",
+                    "name": "Directional Light",
+                    "paths": [
+                        "light",
+                        "DirectionalLight"
+                    ],
+                    "properties": {
+                        "intensity": 1,
+                        "color": {
+                            "type": "Color",
+                            "args": [
+                                "#ffffff"
+                            ]
+                        }
+                    },
+                    "transform": {
+                        "position": {
+                            "x": 3,
+                            "y": 3,
+                            "z": -3
+                        },
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "block",
+            "uid": "bull_head",
+            "path": "bull_head",
+            "name": "Bull root",
+            "actions": [],
+            "paths": [
+                "bull_head"
+            ],
+            "childrens": [
+                {
+                    "type": "model",
+                    "uid": "bull",
+                    "path": "bull_head.bull",
+                    "paths": [
+                        "bull_head",
+                        "bull"
+                    ],
+                    "name": "Bull element",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "assets": [
+                        {
+                            "uid": "bull_head_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "model",
+                    "uid": "round_wooden_table_02_1k",
+                    "path": "bull_head.round_wooden_table_02_1k",
+                    "paths": [
+                        "bull_head",
+                        "round_wooden_table_02_1k"
+                    ],
+                    "name": "element",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": -0.74,
+                            "z": 0
+                        }
+                    },
+                    "assets": [
+                        {
+                            "uid": "round_wooden_table_02_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "type": "block",
+            "uid": "horse_head",
+            "path": "horse_head",
+            "name": "Horse root",
+            "actions": [],
+            "paths": [
+                "horse_head"
+            ],
+            "childrens": [
+                {
+                    "type": "model",
+                    "uid": "horse",
+                    "path": "horse_head.horse",
+                    "paths": [
+                        "horse_head",
+                        "horse"
+                    ],
+                    "name": "Horse element",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "assets": [
+                        {
+                            "uid": "horse_head_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "model",
+                    "uid": "round_wooden_table_02_1k",
+                    "path": "bull_head.round_wooden_table_02_1k",
+                    "paths": [
+                        "bull_head",
+                        "round_wooden_table_02_1k"
+                    ],
+                    "name": "element",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": -0.74,
+                            "z": 0
+                        }
+                    },
+                    "assets": [
+                        {
+                            "uid": "round_wooden_table_02_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "type": "block",
+            "uid": "lion_head",
+            "path": "lion_head",
+            "name": "Bull root",
+            "actions": [],
+            "paths": [
+                "lion_head"
+            ],
+            "childrens": [
+                {
+                    "type": "model",
+                    "uid": "lion",
+                    "path": "lion_head.lion",
+                    "paths": [
+                        "lion_head",
+                        "lion"
+                    ],
+                    "name": "Lion element",
+                    "transform": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "assets": [
+                        {
+                            "uid": "lion_head_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "model",
+                    "uid": "round_wooden_table_02_1k",
+                    "path": "bull_head.round_wooden_table_02_1k",
+                    "paths": [
+                        "bull_head",
+                        "round_wooden_table_02_1k"
+                    ],
+                    "name": "element",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": -0.74,
+                            "z": 0
+                        }
+                    },
+                    "assets": [
+                        {
+                            "uid": "round_wooden_table_02_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "type": "block",
+            "uid": "floor",
+            "path": "floor",
+            "name": "Floor",
+            "actions": [],
+            "paths": [
+                "floor"
+            ],
+            "childrens": [
+                {
+                    "type": "model",
+                    "uid": "floormodel",
+                    "path": "floor.floormodel",
+                    "paths": [
+                        "floor",
+                        "floormodel"
+                    ],
+                    "name": "Floor element",
+                    "assets": [
+                        {
+                            "uid": "wood_floor_deck_1k",
+                            "shadow": {
+                                "cast": true,
+                                "receive": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": -0.75,
+                    "z": -2
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 2,
+                    "y": 1,
+                    "z": 2
+                }
+            }
+        }
+    ],
+    "slides": [
+        {
+            "uid": "base",
+            "type": "slide",
+            "name": "New slide",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "childrens": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "bull_head"
+                                    ]
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1,
+                                        "z": 0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "lion_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": -0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "lionview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "horse_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "horseview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "uid": "bullview",
+            "type": "slide",
+            "name": "New slide",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "childrens": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "bull_head"
+                                    ]
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1,
+                                        "z": -1.5
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "lion_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": -0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "lionview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "horse_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "horseview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "uid": "lionview",
+            "type": "slide",
+            "name": "New slide",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "childrens": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "lion_head"
+                                    ]
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": -0.3,
+                                        "y": 1,
+                                        "z": -1.25
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "lion_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": -0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "lionview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "horse_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "horseview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "uid": "horseview",
+            "type": "slide",
+            "name": "New slide",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "childrens": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "horse_head"
+                                    ]
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": 0.3,
+                                    "y": 1,
+                                    "z": -1.25
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "lion_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": -0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "lionview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "horse_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "horseview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        }
+    ]
+}

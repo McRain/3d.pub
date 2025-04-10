@@ -54,7 +54,7 @@
     "assets": [
         {
             "uid": "bull_head_1k",
-            "url": "./assets/bull_head_1k.glb",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/bull_head_1k.gltf",
             "type": "gltf",
             "parameters": {
                 "clone": false

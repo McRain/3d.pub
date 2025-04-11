@@ -4,7 +4,7 @@
             "uid": "tweenmove",
             "type": "TweenPos",
             "delay": 0,
-            "time": 300,
+            "time": 200,
             "from": {
                 "type": "relative",
                 "value": {
@@ -29,7 +29,7 @@
             "uid": "tweenrotate",
             "type": "TweenRotation",
             "delay": 1,
-            "time": 500,
+            "time": 200,
             "from": {
                 "type": "relative",
                 "value": {
@@ -171,7 +171,7 @@
                     "z": 1
                 }
             },
-            "childrens": [
+            "children": [
                 {
                     "type": "AmbientLight",
                     "uid": "AmbientLight",
@@ -239,7 +239,7 @@
             "paths": [
                 "bull_head"
             ],
-            "childrens": [
+            "children": [
                 {
                     "type": "model",
                     "uid": "bull",
@@ -318,7 +318,7 @@
             "paths": [
                 "horse_head"
             ],
-            "childrens": [
+            "children": [
                 {
                     "type": "model",
                     "uid": "horse",
@@ -397,7 +397,7 @@
             "paths": [
                 "lion_head"
             ],
-            "childrens": [
+            "children": [
                 {
                     "type": "model",
                     "uid": "lion",
@@ -476,7 +476,7 @@
             "paths": [
                 "floor"
             ],
-            "childrens": [
+            "children": [
                 {
                     "type": "model",
                     "uid": "floormodel",
@@ -525,7 +525,7 @@
                 "background": {},
                 "environment": {}
             },
-            "childrens": [
+            "children": [
                 {
                     "uid": "cam1",
                     "visible": true,
@@ -630,7 +630,7 @@
                 "background": {},
                 "environment": {}
             },
-            "childrens": [
+            "children": [
                 {
                     "uid": "cam1",
                     "visible": true,
@@ -735,7 +735,7 @@
                 "background": {},
                 "environment": {}
             },
-            "childrens": [
+            "children": [
                 {
                     "uid": "cam1",
                     "visible": true,
@@ -746,7 +746,7 @@
                         },
                         {
                             "uid": "callFunc",
-                            "hook": "slide.in",
+                            "hook": "slide.in.before",
                             "method": "setTo",
                             "paths": [
                                 "model"
@@ -760,6 +760,154 @@
                                 "camera": {
                                     "position": {
                                         "x": -0.3,
+                                        "y": 1,
+                                        "z": -1.25
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "lion_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": -0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "gotoBack",
+                            "hook": "mouse.click.self"
+                        },
+                        {
+                            "uid": "tweenrotate",
+                            "hook": "slide.in",
+                            "paths":["model"],
+                            "target":["lion"],
+                            "from": {
+                                "type": "relative",
+                                "value": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            "to": {
+                                "type": "accurate",
+                                "value": {
+                                    "x": 0,
+                                    "y": 45,
+                                    "z": 0
+                                }
+                            }
+                        },
+                        {
+                            "uid": "tweenrotate",
+                            "hook": "slide.out",
+                            "paths":["model"],
+                            "target":["lion"],
+                            "from": {
+                                "type": "relative",
+                                "value": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            "to": {
+                                "type": "accurate",
+                                "value": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "horse_head",
+                    "visible": true,
+                    "transform": {
+                        "position": {
+                            "x": 0.9,
+                            "y": 0,
+                            "z": -2
+                        }
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "horseview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "uid": "horseview",
+            "type": "slide",
+            "name": "New slide",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "children": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in.before",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "horse_head"
+                                    ]
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": 0.3,
                                         "y": 1,
                                         "z": -1.25
                                     }
@@ -816,114 +964,52 @@
                     },
                     "actions": [
                         {
-                            "uid": "goto",
-                            "hook": "mouse.click.self",
-                            "slide": "horseview"
-                        }
-                    ]
-                },
-                {
-                    "uid": "light",
-                    "visible": true
-                },
-                {
-                    "uid": "floor",
-                    "visible": true
-                }
-            ]
-        },
-        {
-            "uid": "horseview",
-            "type": "slide",
-            "name": "New slide",
-            "scene": {
-                "background": {},
-                "environment": {}
-            },
-            "childrens": [
-                {
-                    "uid": "cam1",
-                    "visible": true,
-                    "actions": [
-                        {
-                            "uid": "cameraSet",
-                            "hook": "slide.in"
+                            "uid": "gotoBack",
+                            "hook": "mouse.click.self"
                         },
                         {
-                            "uid": "callFunc",
+                            "uid": "tweenrotate",
                             "hook": "slide.in",
-                            "method": "setTo",
-                            "paths": [
-                                "model"
-                            ],
-                            "values": {
-                                "focus": {
-                                    "paths": [
-                                        "horse_head"
-                                    ]
-                                },
-                                "camera": {
-                                    "position": {
-                                        "x": 0.3,
-                                    "y": 1,
-                                    "z": -1.25
-                                    }
+                            "paths":["model"],
+                            "target":["horse"],
+                            "from": {
+                                "type": "relative",
+                                "value": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            "to": {
+                                "type": "accurate",
+                                "value": {
+                                    "x": 0,
+                                    "y": -45,
+                                    "z": 0
                                 }
                             }
-                        }
-                    ]
-                },
-                {
-                    "uid": "bull_head",
-                    "visible": true,
-                    "transform": {
-                        "position": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -2
-                        }
-                    },
-                    "actions": [
+                        },
                         {
-                            "uid": "goto",
-                            "hook": "mouse.click.self",
-                            "slide": "bullview"
-                        }
-                    ]
-                },
-                {
-                    "uid": "lion_head",
-                    "visible": true,
-                    "transform": {
-                        "position": {
-                            "x": -0.9,
-                            "y": 0,
-                            "z": -2
-                        }
-                    },
-                    "actions": [
-                        {
-                            "uid": "goto",
-                            "hook": "mouse.click.self",
-                            "slide": "lionview"
-                        }
-                    ]
-                },
-                {
-                    "uid": "horse_head",
-                    "visible": true,
-                    "transform": {
-                        "position": {
-                            "x": 0.9,
-                            "y": 0,
-                            "z": -2
-                        }
-                    },
-                    "actions": [
-                        {
-                            "uid": "goto",
-                            "hook": "mouse.click.self",
-                            "slide": "horseview"
+                            "uid": "tweenrotate",
+                            "hook": "slide.out",
+                            "paths":["model"],
+                            "target":["horse"],
+                            "from": {
+                                "type": "relative",
+                                "value": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            },
+                            "to": {
+                                "type": "accurate",
+                                "value": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            }
                         }
                     ]
                 },

@@ -35,9 +35,7 @@
             "479.bundle.js",
             "261.bundle.js",
             "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
+            "637.bundle.js"
           ],
           "sync": [
             "mf.js",
@@ -47,8 +45,7 @@
         "css": {
           "async": [
             "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
+            "__federation_expose_TweenPosUI.css"
           ],
           "sync": []
         }
@@ -67,9 +64,7 @@
             "479.bundle.js",
             "261.bundle.js",
             "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
+            "637.bundle.js"
           ],
           "sync": [
             "mf.js",
@@ -79,8 +74,7 @@
         "css": {
           "async": [
             "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
+            "__federation_expose_TweenPosUI.css"
           ],
           "sync": []
         }
@@ -99,9 +93,7 @@
             "479.bundle.js",
             "261.bundle.js",
             "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
+            "637.bundle.js"
           ],
           "sync": [
             "mf.js",
@@ -111,8 +103,7 @@
         "css": {
           "async": [
             "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
+            "__federation_expose_TweenPosUI.css"
           ],
           "sync": []
         }
@@ -228,42 +219,6 @@
         }
       },
       "path": "./TweenPos"
-    },
-    {
-      "id": "tweens:TweenRotateUI",
-      "name": "TweenRotateUI",
-      "assets": {
-        "js": {
-          "sync": [
-            "234.bundle.js"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [
-            "__federation_expose_TweenRotateUI.css"
-          ],
-          "async": []
-        }
-      },
-      "path": "./TweenRotateUI"
-    },
-    {
-      "id": "tweens:TweenRotate",
-      "name": "TweenRotate",
-      "assets": {
-        "js": {
-          "sync": [
-            "84.bundle.js"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      },
-      "path": "./TweenRotate"
     }
   ]
 }

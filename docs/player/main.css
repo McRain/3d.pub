@@ -72,7 +72,37 @@ img[data-v-1f7d1c9e] {
 	}
 }
 
-.element[data-v-8923d9d6] {
+#myDiv[data-v-65bbd188] {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+#svg-container[data-v-65bbd188] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Чтобы SVG не перехватывал клики */
+}
+#myLine[data-v-65bbd188] {
+    stroke: blue;
+    stroke-width: 2;
+}
+.label[data-v-65bbd188] {
+    perspective: 500px;
+    pointer-events: all;
+    font-size: 2em;
+    position: relative;
+    width: 2px;
+    height: 2px;
+    background-color: #2C2F48;
+}
+.element[data-v-65bbd188] {
 
     border: 1px solid rgba(0, 0, 0, 0.25);
     padding: 5px;
@@ -81,7 +111,7 @@ img[data-v-1f7d1c9e] {
     flex-direction: column;
 }
 .container {
-&[data-v-8923d9d6]{
+&[data-v-65bbd188]{
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -89,7 +119,7 @@ img[data-v-1f7d1c9e] {
     top: 0;
     pointer-events: none;
     }
-.sliders[data-v-8923d9d6] {
+.sliders[data-v-65bbd188] {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -98,14 +128,14 @@ img[data-v-1f7d1c9e] {
 }
 
 /* Боковая панель */
-.sidebar[data-v-8923d9d6] {
+.sidebar[data-v-65bbd188] {
     width: 68px;
     background-color: rgba(29, 32, 62, 0.5);
     padding-left: 11px;
     overflow: hidden;
     pointer-events: all;
 }
-.sidebar .menu[data-v-8923d9d6] {
+.sidebar .menu[data-v-65bbd188] {
     position: absolute;
     top: 0;
     left: 0;
@@ -120,7 +150,7 @@ img[data-v-1f7d1c9e] {
     flex-direction: column;
     gap: 50px;
 }
-.sidebar .menublur[data-v-8923d9d6] {
+.sidebar .menublur[data-v-65bbd188] {
     position: absolute;
     top: 0;
     left: 0;
@@ -130,23 +160,23 @@ img[data-v-1f7d1c9e] {
     width: 67px;
     filter: blur(5px);
 }
-.sidebar .menu .menuelement[data-v-8923d9d6] {
+.sidebar .menu .menuelement[data-v-65bbd188] {
     width: 40px;
     height: 40px;
     background-image: url(/player/assets/5bf54e94011af41adb2c.png);
 }
-.sidebar .menu .menuelements[data-v-8923d9d6] {
+.sidebar .menu .menuelements[data-v-65bbd188] {
     width: 60px;
     height: 60px;
     background-image: url(/player/assets/5bf54e94011af41adb2c.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sidebar .menu .menuelement[data-v-8923d9d6]:hover {
+.sidebar .menu .menuelement[data-v-65bbd188]:hover {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
-.slides[data-v-8923d9d6] {
+.slides[data-v-65bbd188] {
     position: absolute;
     bottom: 10px;
     left: 150px;
@@ -154,10 +184,10 @@ img[data-v-1f7d1c9e] {
     pointer-events: all;
 }
 .main-content {
-&[data-v-8923d9d6]{
+&[data-v-65bbd188]{
     position: relative;
     }
-.camlist[data-v-8923d9d6] {
+.camlist[data-v-65bbd188] {
         position: absolute;
         top: 0;
         right: 0;
@@ -168,7 +198,7 @@ img[data-v-1f7d1c9e] {
 
 
 /* Контейнер для карточек */
-.card-container[data-v-8923d9d6] {
+.card-container[data-v-65bbd188] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* Адаптивные столбцы */
@@ -176,25 +206,25 @@ img[data-v-1f7d1c9e] {
 }
 
 /* Карточки */
-.card[data-v-8923d9d6] {
+.card[data-v-65bbd188] {
     background-color: #222;
     border-radius: 10px;
     padding: 20px;
 }
-.card-large[data-v-8923d9d6] {
+.card-large[data-v-65bbd188] {
     grid-column: span 2;
     /* Занимает 2 столбца */
 }
 
 /* Правая панель */
 .right-sidebar {
-&[data-v-8923d9d6]{
+&[data-v-65bbd188]{
     width: 200px;
     background-color: #2C2F48;
     overflow-y: auto;
     }
 .right-slider {
-&[data-v-8923d9d6]{
+&[data-v-65bbd188]{
         pointer-events: all;
         display: flex;
         flex-direction: column;
@@ -202,14 +232,14 @@ img[data-v-1f7d1c9e] {
         width: 100%;
         padding: 5px;
         }
-.side-card[data-v-8923d9d6] {
+.side-card[data-v-65bbd188] {
             background-color: rgba(255, 255, 255, 0.3);
             min-height: 10px;
             border-radius: 5%;
             border: 1px solid #0e0f16;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.line[data-v-8923d9d6] {
+.line[data-v-65bbd188] {
             border: 1px solid #202235;
 }
 }

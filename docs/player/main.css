@@ -246,42 +246,47 @@ img[data-v-1f7d1c9e] {
 }
 
 
-.layer[data-v-62db3416] {
+.layer {
+&[data-v-9e8071a2] {
     pointer-events: all;
     cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
+    text-transform: uppercase;    
     display: flex;
     position: absolute;
-    margin: 0;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     border: 1px solid rgba(22, 92, 4, 0.6);
+    display: flex;
+    flex-direction: column;
 }
-.fade-enter-active[data-v-62db3416],
-.fade-leave-active[data-v-62db3416] {
+span[data-v-9e8071a2] {
+        letter-spacing: 0;
+        display: block;
+        margin: 0 auto;
+        text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+        background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: aitf-9e8071a2 80s linear infinite;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+}
+p[data-v-9e8071a2]{
+            font-size: 1em;
+}
+}
+.fade-enter-active[data-v-9e8071a2],
+.fade-leave-active[data-v-9e8071a2] {
     transition: opacity 0.5s ease-in-out;
 }
-.fade-enter-from[data-v-62db3416],
-.fade-leave-to[data-v-62db3416] {
+.fade-enter-from[data-v-9e8071a2],
+.fade-leave-to[data-v-9e8071a2] {
     opacity: 0;
 }
-.layer span[data-v-62db3416] {
-    letter-spacing: 0;
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: aitf-62db3416 80s linear infinite;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-}
-@keyframes aitf-62db3416 {
+@keyframes aitf-9e8071a2 {
 0% {
         background-position: 0% 50%;
 }

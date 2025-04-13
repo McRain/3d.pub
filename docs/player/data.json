@@ -299,9 +299,10 @@
                         "bulllabel"
                     ],
                     "text":"Bull head",
+                    "html":"<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
                     "size":"2em",
                     "offset":{
-                        "x":0,"y":0.4
+                        "x":0,"y":0.35
                     },
                     "card":{
                         "position":{
@@ -399,9 +400,10 @@
                         "horselabel"
                     ],
                     "text":"Horse head",
+                    "html":"<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
                     "size":"2em",
                     "offset":{
-                        "x":0,"y":0.4
+                        "x":0,"y":0.35
                     },
                     "card":{
                         "position":{
@@ -498,6 +500,7 @@
                         "lionlabel"
                     ],
                     "text":"Lion head",
+                    "html":"<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
                     "size":"2em",
                     "offset":{
                         "x":0,"y":0.4
@@ -637,17 +640,10 @@
                         },
                         {
                             "uid": "visibleSet",
-                            "hook": "slide.out",
-                            "paths": ["model"],
-                            "target":["bulllabel"],
-                            "value":false
-                        },
-                        {
-                            "uid": "visibleSet",
                             "hook": "slide.in",
                             "paths": ["model"],
                             "target":["bulllabel"],
-                            "value":true
+                            "value":false
                         }
                     ]
                 },
@@ -669,17 +665,10 @@
                         },
                         {
                             "uid": "visibleSet",
-                            "hook": "slide.out",
-                            "paths": ["model"],
-                            "target":["lionlabel"],
-                            "value":false
-                        },
-                        {
-                            "uid": "visibleSet",
                             "hook": "slide.in",
                             "paths": ["model"],
                             "target":["lionlabel"],
-                            "value":true
+                            "value":false
                         }
                     ]
                 },
@@ -701,17 +690,10 @@
                         },
                         {
                             "uid": "visibleSet",
-                            "hook": "slide.out",
-                            "paths": ["model"],
-                            "target":["horselabel"],
-                            "value":false
-                        },
-                        {
-                            "uid": "visibleSet",
                             "hook": "slide.in",
                             "paths": ["model"],
                             "target":["horselabel"],
-                            "value":true
+                            "value":false
                         }
                     ]
                 },
@@ -753,7 +735,12 @@
                                 "focus": {
                                     "paths": [
                                         "bull_head"
-                                    ]
+                                    ],
+                                    "offset":{
+                                        "x": 0,
+                                        "y": 0.1,
+                                        "z": 0
+                                    }
                                 },
                                 "camera": {
                                     "position": {
@@ -781,6 +768,20 @@
                             "uid": "goto",
                             "hook": "mouse.click.self",
                             "slide": "bullview"
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": ["model"],
+                            "target":["bulllabel"],
+                            "value":false
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.in",
+                            "paths": ["model"],
+                            "target":["bulllabel"],
+                            "value":true
                         }
                     ]
                 },
@@ -947,6 +948,20 @@
                                     "z": 0
                                 }
                             }
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": ["model"],
+                            "target":["lionlabel"],
+                            "value":false
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.in.before",
+                            "paths": ["model"],
+                            "target":["lionlabel"],
+                            "value":true
                         }
                     ]
                 },
@@ -1113,6 +1128,20 @@
                                     "z": 0
                                 }
                             }
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": ["model"],
+                            "target":["horselabel"],
+                            "value":false
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.in.before",
+                            "paths": ["model"],
+                            "target":["horselabel"],
+                            "value":true
                         }
                     ]
                 },

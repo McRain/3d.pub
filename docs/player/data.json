@@ -634,6 +634,20 @@
                             "uid": "goto",
                             "hook": "mouse.click.self",
                             "slide": "bullview"
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": ["model"],
+                            "target":["bulllabel"],
+                            "value":false
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.in",
+                            "paths": ["model"],
+                            "target":["bulllabel"],
+                            "value":true
                         }
                     ]
                 },
@@ -652,6 +666,20 @@
                             "uid": "goto",
                             "hook": "mouse.click.self",
                             "slide": "lionview"
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": ["model"],
+                            "target":["lionlabel"],
+                            "value":false
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.in",
+                            "paths": ["model"],
+                            "target":["lionlabel"],
+                            "value":true
                         }
                     ]
                 },
@@ -670,6 +698,20 @@
                             "uid": "goto",
                             "hook": "mouse.click.self",
                             "slide": "horseview"
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": ["model"],
+                            "target":["horselabel"],
+                            "value":false
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.in",
+                            "paths": ["model"],
+                            "target":["horselabel"],
+                            "value":true
                         }
                     ]
                 },

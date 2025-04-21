@@ -123,13 +123,11 @@
                 "receive": false
             },
             "envMap": "hdrscene",
-            "transform": {
-                "scale": {
+            "scale": {
                     "x": 0.1,
                     "y": 0.1,
                     "z": 0.1
                 }
-            }
         },
         {
             "uid": "hdrscene",
@@ -154,8 +152,7 @@
             "paths": [
                 "light"
             ],
-            "transform": {
-                "position": {
+            "position": {
                     "x": 0,
                     "y": 0,
                     "z": 0
@@ -169,8 +166,7 @@
                     "x": 1,
                     "y": 1,
                     "z": 1
-                }
-            },
+                },
             "children": [
                 {
                     "type": "AmbientLight",
@@ -210,8 +206,7 @@
                             ]
                         }
                     },
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 3,
                             "y": 3,
                             "z": -3
@@ -226,7 +221,6 @@
                             "y": 1,
                             "z": 1
                         }
-                    }
                 }
             ]
         },
@@ -249,12 +243,10 @@
                         "bull"
                     ],
                     "name": "Bull element",
-                    "transform": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        }
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
                     },
                     "assets": [
                         {
@@ -274,12 +266,10 @@
                         "round_wooden_table_02_1k"
                     ],
                     "name": "element",
-                    "transform": {
-                        "position": {
-                            "x": 0,
-                            "y": -0.74,
-                            "z": 0
-                        }
+                    "position": {
+                        "x": 0,
+                        "y": -0.74,
+                        "z": 0
                     },
                     "assets": [
                         {
@@ -291,30 +281,31 @@
                     ]
                 },
                 {
-                    "type":"uielement",
-                    "uid":"bulllabel",
+                    "type": "uielement",
+                    "uid": "bulllabel",
                     "path": "bull_head.bulllabel",
                     "paths": [
                         "bull_head",
                         "bulllabel"
                     ],
-                    "text":"Bull head",
-                    "html":"<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
-                    "size":"2em",
-                    "offset":{
-                        "x":0,"y":0.35
+                    "text": "Bull head",
+                    "html": "<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
+                    "size": "2em",
+                    "offset": {
+                        "x": 0,
+                        "y": 0.36,
+                        "z": -0.1
                     },
-                    "card":{
-                        "position":{
-                            "left":"50%",
-                            "top":"32px",
+                    "card": {
+                        "position": {
+                            "left": "50%",
+                            "top": "32px",
                             "transform": "translateX(-50%)"
                         }
                     }
                 }
             ],
-            "transform": {
-                "position": {
+            "position": {
                     "x": 0,
                     "y": 0,
                     "z": 0
@@ -329,7 +320,6 @@
                     "y": 1,
                     "z": 1
                 }
-            }
         },
         {
             "type": "block",
@@ -350,13 +340,11 @@
                         "horse"
                     ],
                     "name": "Horse element",
-                    "transform": {
-                        "rotation": {
+                    "rotation": {
                             "x": 0,
                             "y": 0,
                             "z": 0
-                        }
-                    },
+                        },
                     "assets": [
                         {
                             "uid": "horse_head_1k",
@@ -375,13 +363,11 @@
                         "round_wooden_table_02_1k"
                     ],
                     "name": "element",
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0,
                             "y": -0.74,
                             "z": 0
-                        }
-                    },
+                        },
                     "assets": [
                         {
                             "uid": "round_wooden_table_02_1k",
@@ -392,29 +378,29 @@
                     ]
                 },
                 {
-                    "type":"uielement",
-                    "uid":"horselabel",
+                    "type": "uielement",
+                    "uid": "horselabel",
                     "path": "horse_head.horselabel",
                     "paths": [
                         "horse_head",
                         "horselabel"
                     ],
-                    "text":"Horse head",
-                    "html":"<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
-                    "size":"2em",
-                    "offset":{
-                        "x":0,"y":0.35
+                    "text": "Horse head",
+                    "html": "<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
+                    "size": "2em",
+                    "offset": {
+                        "x": 0,
+                        "y": 0.35
                     },
-                    "card":{
-                        "position":{
-                            "right":"128px",
-                            "top":"32px"
+                    "card": {
+                        "position": {
+                            "right": "128px",
+                            "top": "32px"
                         }
                     }
                 }
             ],
-            "transform": {
-                "position": {
+            "position": {
                     "x": 0,
                     "y": 0,
                     "z": 0
@@ -429,7 +415,6 @@
                     "y": 1,
                     "z": 1
                 }
-            }
         },
         {
             "type": "block",
@@ -450,12 +435,10 @@
                         "lion"
                     ],
                     "name": "Lion element",
-                    "transform": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        }
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
                     },
                     "assets": [
                         {
@@ -475,13 +458,11 @@
                         "round_wooden_table_02_1k"
                     ],
                     "name": "element",
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0,
                             "y": -0.74,
                             "z": 0
-                        }
-                    },
+                        },
                     "assets": [
                         {
                             "uid": "round_wooden_table_02_1k",
@@ -492,29 +473,29 @@
                     ]
                 },
                 {
-                    "type":"uielement",
-                    "uid":"lionlabel",
+                    "type": "uielement",
+                    "uid": "lionlabel",
                     "path": "lion_head.lionlabel",
                     "paths": [
                         "lion_head",
                         "lionlabel"
                     ],
-                    "text":"Lion head",
-                    "html":"<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
-                    "size":"2em",
-                    "offset":{
-                        "x":0,"y":0.4
+                    "text": "Lion head",
+                    "html": "<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
+                    "size": "2em",
+                    "offset": {
+                        "x": 0,
+                        "y": 0.4
                     },
-                    "card":{
-                        "position":{
-                            "left":"128px",
-                            "top":"32px"
+                    "card": {
+                        "position": {
+                            "left": "128px",
+                            "top": "32px"
                         }
                     }
                 }
             ],
-            "transform": {
-                "position": {
+            "position": {
                     "x": 0,
                     "y": 0,
                     "z": 0
@@ -529,7 +510,6 @@
                     "y": 1,
                     "z": 1
                 }
-            }
         },
         {
             "type": "block",
@@ -561,8 +541,7 @@
                     ]
                 }
             ],
-            "transform": {
-                "position": {
+            "position": {
                     "x": 0,
                     "y": -0.75,
                     "z": -2
@@ -577,7 +556,6 @@
                     "y": 1,
                     "z": 2
                 }
-            }
         }
     ],
     "slides": [
@@ -625,13 +603,11 @@
                 {
                     "uid": "bull_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -641,22 +617,24 @@
                         {
                             "uid": "visibleSet",
                             "hook": "slide.in",
-                            "paths": ["model"],
-                            "target":["bulllabel"],
-                            "value":false
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "bulllabel"
+                            ],
+                            "value": false
                         }
                     ]
                 },
                 {
                     "uid": "lion_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                   "position": {
                             "x": -0.9,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -666,22 +644,24 @@
                         {
                             "uid": "visibleSet",
                             "hook": "slide.in",
-                            "paths": ["model"],
-                            "target":["lionlabel"],
-                            "value":false
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "lionlabel"
+                            ],
+                            "value": false
                         }
                     ]
                 },
                 {
                     "uid": "horse_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0.9,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -691,9 +671,13 @@
                         {
                             "uid": "visibleSet",
                             "hook": "slide.in",
-                            "paths": ["model"],
-                            "target":["horselabel"],
-                            "value":false
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "horselabel"
+                            ],
+                            "value": false
                         }
                     ]
                 },
@@ -736,7 +720,7 @@
                                     "paths": [
                                         "bull_head"
                                     ],
-                                    "offset":{
+                                    "offset": {
                                         "x": 0,
                                         "y": 0.1,
                                         "z": 0
@@ -756,13 +740,11 @@
                 {
                     "uid": "bull_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -772,29 +754,35 @@
                         {
                             "uid": "visibleSet",
                             "hook": "slide.out",
-                            "paths": ["model"],
-                            "target":["bulllabel"],
-                            "value":false
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "bulllabel"
+                            ],
+                            "value": false
                         },
                         {
                             "uid": "visibleSet",
                             "hook": "slide.in",
-                            "paths": ["model"],
-                            "target":["bulllabel"],
-                            "value":true
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "bulllabel"
+                            ],
+                            "value": true
                         }
                     ]
                 },
                 {
                     "uid": "lion_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": -0.9,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -806,13 +794,11 @@
                 {
                     "uid": "horse_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0.9,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -875,13 +861,11 @@
                 {
                     "uid": "bull_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -893,13 +877,11 @@
                 {
                     "uid": "lion_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": -0.9,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "gotoBack",
@@ -908,8 +890,12 @@
                         {
                             "uid": "tweenrotate",
                             "hook": "slide.in",
-                            "paths":["model"],
-                            "target":["lion"],
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "lion"
+                            ],
                             "from": {
                                 "type": "relative",
                                 "value": {
@@ -930,8 +916,12 @@
                         {
                             "uid": "tweenrotate",
                             "hook": "slide.out",
-                            "paths":["model"],
-                            "target":["lion"],
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "lion"
+                            ],
                             "from": {
                                 "type": "relative",
                                 "value": {
@@ -952,29 +942,35 @@
                         {
                             "uid": "visibleSet",
                             "hook": "slide.out",
-                            "paths": ["model"],
-                            "target":["lionlabel"],
-                            "value":false
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "lionlabel"
+                            ],
+                            "value": false
                         },
                         {
                             "uid": "visibleSet",
                             "hook": "slide.in.before",
-                            "paths": ["model"],
-                            "target":["lionlabel"],
-                            "value":true
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "lionlabel"
+                            ],
+                            "value": true
                         }
                     ]
                 },
                 {
                     "uid": "horse_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0.9,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -1037,13 +1033,11 @@
                 {
                     "uid": "bull_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
+                    "position": {
                             "x": 0,
                             "y": 0,
                             "z": -2
-                        }
-                    },
+                        },
                     "actions": [
                         {
                             "uid": "goto",
@@ -1055,12 +1049,10 @@
                 {
                     "uid": "lion_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
-                            "x": -0.9,
-                            "y": 0,
-                            "z": -2
-                        }
+                    "position": {
+                        "x": -0.9,
+                        "y": 0,
+                        "z": -2
                     },
                     "actions": [
                         {
@@ -1073,12 +1065,10 @@
                 {
                     "uid": "horse_head",
                     "visible": true,
-                    "transform": {
-                        "position": {
-                            "x": 0.9,
-                            "y": 0,
-                            "z": -2
-                        }
+                    "position": {
+                        "x": 0.9,
+                        "y": 0,
+                        "z": -2
                     },
                     "actions": [
                         {
@@ -1088,8 +1078,12 @@
                         {
                             "uid": "tweenrotate",
                             "hook": "slide.in",
-                            "paths":["model"],
-                            "target":["horse"],
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "horse"
+                            ],
                             "from": {
                                 "type": "relative",
                                 "value": {
@@ -1110,8 +1104,12 @@
                         {
                             "uid": "tweenrotate",
                             "hook": "slide.out",
-                            "paths":["model"],
-                            "target":["horse"],
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "horse"
+                            ],
                             "from": {
                                 "type": "relative",
                                 "value": {
@@ -1132,16 +1130,24 @@
                         {
                             "uid": "visibleSet",
                             "hook": "slide.out",
-                            "paths": ["model"],
-                            "target":["horselabel"],
-                            "value":false
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "horselabel"
+                            ],
+                            "value": false
                         },
                         {
                             "uid": "visibleSet",
                             "hook": "slide.in.before",
-                            "paths": ["model"],
-                            "target":["horselabel"],
-                            "value":true
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "horselabel"
+                            ],
+                            "value": true
                         }
                     ]
                 },

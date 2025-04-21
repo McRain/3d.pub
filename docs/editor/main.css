@@ -685,7 +685,7 @@ button[data-v-1faf8c1a] {
 	}
 }
 
-.element[data-v-42b4b7cb] {
+.element[data-v-ccff1f0e] {
 
     border: 1px solid rgba(0, 0, 0, 0.25);
     padding: 5px;
@@ -694,7 +694,7 @@ button[data-v-1faf8c1a] {
     flex-direction: column;
 }
 .container {
-&[data-v-42b4b7cb]{
+&[data-v-ccff1f0e]{
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -702,7 +702,7 @@ button[data-v-1faf8c1a] {
     top: 0;
     pointer-events: none;
     }
-.hierarhy[data-v-42b4b7cb] {
+.hierarhy[data-v-ccff1f0e] {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -710,7 +710,7 @@ button[data-v-1faf8c1a] {
         width: 256px;
         height: 100%;
 }
-.project[data-v-42b4b7cb] {
+.project[data-v-ccff1f0e] {
         position: absolute;
         top: 10px;
         right: 3px;
@@ -720,7 +720,7 @@ button[data-v-1faf8c1a] {
         /*display: grid;
         grid-template-rows: repeat(auto-fill, 1fr);*/
 }
-.sliders[data-v-42b4b7cb] {
+.sliders[data-v-ccff1f0e] {
         position: absolute;
         bottom: 10px;
         left: 266px;
@@ -731,14 +731,14 @@ button[data-v-1faf8c1a] {
 }
 
 /* Боковая панель */
-.sidebar[data-v-42b4b7cb] {
+.sidebar[data-v-ccff1f0e] {
     width: 68px;
     background-color: rgba(29, 32, 62, 0.5);
     padding-left: 11px;
     overflow: hidden;
     pointer-events: all;
 }
-.sidebar .menu[data-v-42b4b7cb] {
+.sidebar .menu[data-v-ccff1f0e] {
     position: absolute;
     top: 0;
     left: 0;
@@ -753,7 +753,7 @@ button[data-v-1faf8c1a] {
     flex-direction: column;
     gap: 50px;
 }
-.sidebar .menublur[data-v-42b4b7cb] {
+.sidebar .menublur[data-v-ccff1f0e] {
     position: absolute;
     top: 0;
     left: 0;
@@ -763,23 +763,23 @@ button[data-v-1faf8c1a] {
     width: 67px;
     filter: blur(5px);
 }
-.sidebar .menu .menuelement[data-v-42b4b7cb] {
+.sidebar .menu .menuelement[data-v-ccff1f0e] {
     width: 40px;
     height: 40px;
     background-image: url(/editor/assets/5bf54e94011af41adb2c.png);
 }
-.sidebar .menu .menuelements[data-v-42b4b7cb] {
+.sidebar .menu .menuelements[data-v-ccff1f0e] {
     width: 60px;
     height: 60px;
     background-image: url(/editor/assets/5bf54e94011af41adb2c.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sidebar .menu .menuelement[data-v-42b4b7cb]:hover {
+.sidebar .menu .menuelement[data-v-ccff1f0e]:hover {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
-.slides[data-v-42b4b7cb] {
+.slides[data-v-ccff1f0e] {
     position: absolute;
     bottom: 10px;
     left: 150px;
@@ -787,10 +787,10 @@ button[data-v-1faf8c1a] {
     pointer-events: all;
 }
 .main-content {
-&[data-v-42b4b7cb]{
+&[data-v-ccff1f0e]{
     position: relative;
     }
-.camlist[data-v-42b4b7cb] {
+.camlist[data-v-ccff1f0e] {
         position: absolute;
         top: 0;
         right: 0;
@@ -801,7 +801,7 @@ button[data-v-1faf8c1a] {
 
 
 /* Контейнер для карточек */
-.card-container[data-v-42b4b7cb] {
+.card-container[data-v-ccff1f0e] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* Адаптивные столбцы */
@@ -809,25 +809,25 @@ button[data-v-1faf8c1a] {
 }
 
 /* Карточки */
-.card[data-v-42b4b7cb] {
+.card[data-v-ccff1f0e] {
     background-color: #222;
     border-radius: 10px;
     padding: 20px;
 }
-.card-large[data-v-42b4b7cb] {
+.card-large[data-v-ccff1f0e] {
     grid-column: span 2;
     /* Занимает 2 столбца */
 }
 
 /* Правая панель */
 .right-sidebar {
-&[data-v-42b4b7cb]{
+&[data-v-ccff1f0e]{
     width: 200px;
     background-color: #2C2F48;
     overflow-y: auto;
     }
 .right-slider {
-&[data-v-42b4b7cb]{
+&[data-v-ccff1f0e]{
         pointer-events: all;
         display: flex;
         flex-direction: column;
@@ -835,14 +835,14 @@ button[data-v-1faf8c1a] {
         width: 100%;
         padding: 5px;
         }
-.side-card[data-v-42b4b7cb] {
+.side-card[data-v-ccff1f0e] {
             background-color: rgba(255, 255, 255, 0.3);
             min-height: 10px;
             border-radius: 5%;
             border: 1px solid #0e0f16;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.line[data-v-42b4b7cb] {
+.line[data-v-ccff1f0e] {
             border: 1px solid #202235;
 }
 }

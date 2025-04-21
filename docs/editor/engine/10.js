@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_reneos_3d_editor_engine=self.webpackChunk_reneos_3d_editor_engine||[]).push([[10],{10:(e,n,r)=>{r.r(n),r.d(n,{default:()=>a});var t=r(472);async function a(e){const n=new t.TextureLoader;return await n.load(e.url)}}}]);

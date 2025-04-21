@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_reneos_3d_editor_engine=self.webpackChunk_reneos_3d_editor_engine||[]).push([[824],{824:(e,n,r)=>{r.r(n),r.d(n,{default:()=>c});var s=r(92);function c(e){return new Promise((n=>{(new s.B).load(e.url,(e=>{const r=e.scene.children.length>1?e.scene:e.scene.children[0];n(r)}))}))}r(363)}}]);

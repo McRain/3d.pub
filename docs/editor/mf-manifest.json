@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.editor",
-    "pluginVersion": "0.9.0",
+    "pluginVersion": "0.11.4",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -31,6 +31,27 @@
       "version": "1.0.6",
       "singleton": true,
       "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "main.css"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3d.editor:three",
+      "name": "three",
+      "version": "0.175.0",
+      "singleton": true,
+      "requiredVersion": "^0.175.0",
       "assets": {
         "js": {
           "async": [],

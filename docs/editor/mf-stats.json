@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.editor",
-    "pluginVersion": "0.9.0",
+    "pluginVersion": "0.11.4",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -35,6 +35,32 @@
       "name": "@reneos/app",
       "version": "1.0.6",
       "id": "3d.editor:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "main.css"
+          ]
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.175.0",
+      "shareScope": "default",
+      "import": "three",
+      "eager": true,
+      "shareKey": "three",
+      "name": "three",
+      "version": "0.175.0",
+      "id": "3d.editor:three",
       "assets": {
         "js": {
           "async": [],

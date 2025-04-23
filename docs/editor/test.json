@@ -56,22 +56,20 @@
             "uid": "bull_head_1k",
             "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/bull_head_1k.gltf",
             "type": "gltf",
-            "parameters": {
-                "clone": false
-            },
+            "clone": true,
             "shadow": {
                 "cast": true,
                 "receive": false
             },
-            "envMap": "hdrscene"
+            "envMap": "hdrscene",
+            "name":"Bull head",
+            "path":"bull_head_1k"
         },
         {
             "uid": "lion_head_1k",
             "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/lion_head_1k.gltf",
             "type": "gltf",
-            "parameters": {
-                "clone": false
-            },
+            "clone": true,
             "shadow": {
                 "cast": true,
                 "receive": false
@@ -82,9 +80,7 @@
             "uid": "horse_head_1k",
             "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/horse_head_1k.gltf",
             "type": "gltf",
-            "parameters": {
-                "clone": false
-            },
+            "clone": true,
             "shadow": {
                 "cast": true,
                 "receive": false
@@ -95,6 +91,7 @@
             "uid": "round_wooden_table_02_1k",
             "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/round_wooden_table_02_1k.gltf",
             "type": "gltf",
+            "clone": true,
             "shadow": {
                 "cast": true,
                 "receive": false
@@ -105,6 +102,7 @@
             "uid": "wood_floor_deck_1k",
             "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/floor.glb",
             "type": "gltf",
+            "clone": true,
             "shadow": {
                 "cast": true,
                 "receive": false
@@ -115,9 +113,7 @@
             "uid": "hexagon",
             "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/hexagon.glb",
             "type": "gltf",
-            "parameters": {
-                "clone": true
-            },
+            "clone": true,
             "shadow": {
                 "cast": true,
                 "receive": false

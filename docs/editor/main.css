@@ -411,7 +411,7 @@ li.highlighted[data-v-02225f92] {
 }
 
 
-.focusedtree[data-v-7e5b3abc]{color:var(--text-focused);background-color:var(--bg-focused)}.hierarhy-view[data-v-7e5b3abc]{overflow-y:auto;overflow-x:hidden;width:100%}.hierarhy-view .title[data-v-7e5b3abc]{display:flex;gap:5px}.treeicon[data-v-7e5b3abc]{display:flex;gap:3px;flex-wrap:nowrap;cursor:pointer}.label[data-v-7e5b3abc]{cursor:pointer}
+.focusedtree[data-v-06f026a1]{color:var(--text-focused);background-color:var(--bg-focused)}.hierarhy-view[data-v-06f026a1]{overflow-y:auto;overflow-x:hidden;width:100%}.hierarhy-view .title[data-v-06f026a1]{display:flex;gap:5px}.treeicon[data-v-06f026a1]{display:flex;gap:3px;flex-wrap:nowrap;cursor:pointer}.label[data-v-06f026a1]{cursor:pointer}
 
 /* Общие стили */
 .container[data-v-37404c2f] {
@@ -588,7 +588,7 @@ button[data-v-37404c2f] {
     font-size: 1.25em;
 }
 
-.hierarhy-view[data-v-3e2d761c]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-3e2d761c]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-3e2d761c]{display:flex;gap:3px}.treeicon .svgicon[data-v-3e2d761c]{cursor:pointer}.label[data-v-3e2d761c]{cursor:pointer}
+.hierarhy-view[data-v-4fc4ec3b]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-4fc4ec3b]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-4fc4ec3b]{display:flex;gap:3px}.treeicon .svgicon[data-v-4fc4ec3b]{cursor:pointer}.label[data-v-4fc4ec3b]{cursor:pointer}
 .hierarhy-view[data-v-15bd43d8]{overflow-y:auto;overflow-x:hidden}.focusedtree[data-v-15bd43d8]{color:var(--text-focused);background-color:var(--bg-focused)}.label[data-v-15bd43d8]{cursor:pointer}
 .editor-container{
 	position: relative;

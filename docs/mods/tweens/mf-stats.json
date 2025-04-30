@@ -87,8 +87,8 @@
         }
       },
       "usedIn": [
-        "./TweenPos",
         "./tweens",
+        "./TweenPos",
         "./TweenScale"
       ]
     },

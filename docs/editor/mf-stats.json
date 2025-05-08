@@ -39,20 +39,20 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.c47f3c1f.js",
-            "vendors-eaa1e0b2.ff8146fa.js",
-            "vendors-121455fa.2f3b2e69.js",
-            "vendors-17c34557.f0fa9714.js",
-            "main-9a8b795a.f5fe41ca.js",
-            "main-f16aa68b.e8a2612e.js",
-            "main-afbe97b7.e2735725.js",
-            "main-84781932.87b6e164.js"
+            "vendors-27545368.5ae22d9f.js",
+            "vendors-eaa1e0b2.ba7d8b71.js",
+            "vendors-121455fa.f58171be.js",
+            "vendors-17c34557.f25d5a7d.js",
+            "main-9a8b795a.e314c1e9.js",
+            "main-f16aa68b.8b904b4d.js",
+            "main-31743c5a.0815b1dc.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "main-4f064d56.css"
+            "main-4f064d56.css",
+            "main-31743c5a.css"
           ]
         }
       },
@@ -72,20 +72,20 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-121455fa.2f3b2e69.js",
-            "vendors-27545368.c47f3c1f.js",
-            "vendors-eaa1e0b2.ff8146fa.js",
-            "vendors-17c34557.f0fa9714.js",
-            "main-9a8b795a.f5fe41ca.js",
-            "main-f16aa68b.e8a2612e.js",
-            "main-afbe97b7.e2735725.js",
-            "main-84781932.87b6e164.js"
+            "vendors-121455fa.f58171be.js",
+            "vendors-27545368.5ae22d9f.js",
+            "vendors-eaa1e0b2.ba7d8b71.js",
+            "vendors-17c34557.f25d5a7d.js",
+            "main-9a8b795a.e314c1e9.js",
+            "main-f16aa68b.8b904b4d.js",
+            "main-31743c5a.0815b1dc.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "main-4f064d56.css"
+            "main-4f064d56.css",
+            "main-31743c5a.css"
           ]
         }
       },
@@ -105,20 +105,20 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.c47f3c1f.js",
-            "vendors-eaa1e0b2.ff8146fa.js",
-            "vendors-121455fa.2f3b2e69.js",
-            "vendors-17c34557.f0fa9714.js",
-            "main-9a8b795a.f5fe41ca.js",
-            "main-f16aa68b.e8a2612e.js",
-            "main-afbe97b7.e2735725.js",
-            "main-84781932.87b6e164.js"
+            "vendors-27545368.5ae22d9f.js",
+            "vendors-eaa1e0b2.ba7d8b71.js",
+            "vendors-121455fa.f58171be.js",
+            "vendors-17c34557.f25d5a7d.js",
+            "main-9a8b795a.e314c1e9.js",
+            "main-f16aa68b.8b904b4d.js",
+            "main-31743c5a.0815b1dc.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "main-4f064d56.css"
+            "main-4f064d56.css",
+            "main-31743c5a.css"
           ]
         }
       },

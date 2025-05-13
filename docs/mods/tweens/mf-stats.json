@@ -5,7 +5,7 @@
     "name": "tweens",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "local",
+      "buildVersion": "0.0.1",
       "buildName": "@reneos/3d.mod.tweens"
     },
     "remoteEntry": {
@@ -14,11 +14,14 @@
       "type": "global"
     },
     "types": {
+      "path": "",
       "name": "",
-      "path": ""
+      "zip": "",
+      "api": ""
     },
     "globalName": "tweens",
-    "pluginVersion": "0.1.1",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
     "publicPath": "/mods/tweens/"
   },
   "shared": [
@@ -26,32 +29,22 @@
       "singleton": true,
       "requiredVersion": "^1.0.6",
       "shareScope": "default",
+      "import": "@reneos/app",
+      "eager": true,
+      "shareKey": "@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
-      "eager": false,
       "id": "tweens:@reneos/app",
       "assets": {
         "js": {
-          "async": [
-            "908.bundle.js",
-            "479.bundle.js",
-            "261.bundle.js",
-            "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
-          ],
+          "async": [],
           "sync": [
             "mf.js",
             "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
-          ],
+          "async": [],
           "sync": []
         }
       },
@@ -63,32 +56,22 @@
       "singleton": true,
       "requiredVersion": "^25.0.0",
       "shareScope": "default",
+      "import": "@tweenjs/tween.js",
+      "eager": true,
+      "shareKey": "@tweenjs/tween.js",
       "name": "@tweenjs/tween.js",
       "version": "25.0.0",
-      "eager": false,
       "id": "tweens:@tweenjs/tween.js",
       "assets": {
         "js": {
-          "async": [
-            "908.bundle.js",
-            "479.bundle.js",
-            "261.bundle.js",
-            "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
-          ],
+          "async": [],
           "sync": [
             "mf.js",
             "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
-          ],
+          "async": [],
           "sync": []
         }
       },
@@ -103,32 +86,22 @@
       "singleton": true,
       "requiredVersion": "^3.5.13",
       "shareScope": "default",
+      "import": "vue",
+      "shareKey": "vue",
+      "eager": true,
       "name": "vue",
       "version": "3.5.13",
-      "eager": false,
       "id": "tweens:vue",
       "assets": {
         "js": {
-          "async": [
-            "908.bundle.js",
-            "479.bundle.js",
-            "261.bundle.js",
-            "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
-          ],
+          "async": [],
           "sync": [
             "mf.js",
             "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
-          ],
+          "async": [],
           "sync": []
         }
       },
@@ -183,6 +156,7 @@
       "assets": {
         "js": {
           "sync": [
+            "922.bundle.js",
             "908.bundle.js"
           ],
           "async": []
@@ -286,6 +260,7 @@
       "assets": {
         "js": {
           "sync": [
+            "922.bundle.js",
             "234.bundle.js"
           ],
           "async": []
@@ -309,6 +284,7 @@
       "assets": {
         "js": {
           "sync": [
+            "922.bundle.js",
             "84.bundle.js"
           ],
           "async": []

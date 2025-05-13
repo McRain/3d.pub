@@ -33,15 +33,17 @@
       "requiredVersion": "^1.0.6",
       "assets": {
         "js": {
-          "async": [],
+          "async": [
+            "654.ece5aa9d.chunk.js"
+          ],
           "sync": [
-            "vendors-27545368.5ae22d9f.js",
-            "vendors-eaa1e0b2.ba7d8b71.js",
-            "vendors-121455fa.f58171be.js",
-            "vendors-17c34557.f25d5a7d.js",
-            "main-9a8b795a.e314c1e9.js",
-            "main-f16aa68b.8b904b4d.js",
-            "main-31743c5a.0815b1dc.js"
+            "vendors-27545368.ec68afbf.js",
+            "vendors-eaa1e0b2.83852df5.js",
+            "vendors-121455fa.4261ba9b.js",
+            "vendors-17c34557.fa8b08a5.js",
+            "main-9a8b795a.8cc81bd4.js",
+            "main-f16aa68b.54429441.js",
+            "main-31743c5a.2002c9ca.js"
           ]
         },
         "css": {
@@ -56,20 +58,22 @@
     {
       "id": "3d.editor:three",
       "name": "three",
-      "version": "0.175.0",
+      "version": "0.176.0",
       "singleton": true,
-      "requiredVersion": "^0.175.0",
+      "requiredVersion": "^0.176.0",
       "assets": {
         "js": {
-          "async": [],
+          "async": [
+            "654.ece5aa9d.chunk.js"
+          ],
           "sync": [
-            "vendors-121455fa.f58171be.js",
-            "vendors-27545368.5ae22d9f.js",
-            "vendors-eaa1e0b2.ba7d8b71.js",
-            "vendors-17c34557.f25d5a7d.js",
-            "main-9a8b795a.e314c1e9.js",
-            "main-f16aa68b.8b904b4d.js",
-            "main-31743c5a.0815b1dc.js"
+            "vendors-121455fa.4261ba9b.js",
+            "vendors-27545368.ec68afbf.js",
+            "vendors-eaa1e0b2.83852df5.js",
+            "vendors-17c34557.fa8b08a5.js",
+            "main-9a8b795a.8cc81bd4.js",
+            "main-f16aa68b.54429441.js",
+            "main-31743c5a.2002c9ca.js"
           ]
         },
         "css": {
@@ -89,15 +93,17 @@
       "requiredVersion": "^3.5.13",
       "assets": {
         "js": {
-          "async": [],
+          "async": [
+            "654.ece5aa9d.chunk.js"
+          ],
           "sync": [
-            "vendors-27545368.5ae22d9f.js",
-            "vendors-eaa1e0b2.ba7d8b71.js",
-            "vendors-121455fa.f58171be.js",
-            "vendors-17c34557.f25d5a7d.js",
-            "main-9a8b795a.e314c1e9.js",
-            "main-f16aa68b.8b904b4d.js",
-            "main-31743c5a.0815b1dc.js"
+            "vendors-27545368.ec68afbf.js",
+            "vendors-eaa1e0b2.83852df5.js",
+            "vendors-121455fa.4261ba9b.js",
+            "vendors-17c34557.fa8b08a5.js",
+            "main-9a8b795a.8cc81bd4.js",
+            "main-f16aa68b.54429441.js",
+            "main-31743c5a.2002c9ca.js"
           ]
         },
         "css": {

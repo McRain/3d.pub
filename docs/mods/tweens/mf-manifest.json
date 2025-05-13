@@ -5,7 +5,7 @@
     "name": "tweens",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "local",
+      "buildVersion": "0.0.1",
       "buildName": "@reneos/3d.mod.tweens"
     },
     "remoteEntry": {
@@ -14,11 +14,14 @@
       "type": "global"
     },
     "types": {
+      "path": "",
       "name": "",
-      "path": ""
+      "zip": "",
+      "api": ""
     },
     "globalName": "tweens",
-    "pluginVersion": "0.1.1",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
     "publicPath": "/mods/tweens/"
   },
   "shared": [
@@ -30,26 +33,14 @@
       "requiredVersion": "^1.0.6",
       "assets": {
         "js": {
-          "async": [
-            "908.bundle.js",
-            "479.bundle.js",
-            "261.bundle.js",
-            "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
-          ],
+          "async": [],
           "sync": [
             "mf.js",
             "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
-          ],
+          "async": [],
           "sync": []
         }
       }
@@ -62,26 +53,14 @@
       "requiredVersion": "^25.0.0",
       "assets": {
         "js": {
-          "async": [
-            "908.bundle.js",
-            "479.bundle.js",
-            "261.bundle.js",
-            "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
-          ],
+          "async": [],
           "sync": [
             "mf.js",
             "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
-          ],
+          "async": [],
           "sync": []
         }
       }
@@ -94,26 +73,14 @@
       "requiredVersion": "^3.5.13",
       "assets": {
         "js": {
-          "async": [
-            "908.bundle.js",
-            "479.bundle.js",
-            "261.bundle.js",
-            "927.bundle.js",
-            "637.bundle.js",
-            "234.bundle.js",
-            "84.bundle.js"
-          ],
+          "async": [],
           "sync": [
             "mf.js",
             "bundle.js"
           ]
         },
         "css": {
-          "async": [
-            "__federation_expose_TweenScaleUI.css",
-            "__federation_expose_TweenPosUI.css",
-            "__federation_expose_TweenRotateUI.css"
-          ],
+          "async": [],
           "sync": []
         }
       }
@@ -146,6 +113,7 @@
       "assets": {
         "js": {
           "sync": [
+            "922.bundle.js",
             "908.bundle.js"
           ],
           "async": []
@@ -235,6 +203,7 @@
       "assets": {
         "js": {
           "sync": [
+            "922.bundle.js",
             "234.bundle.js"
           ],
           "async": []
@@ -254,6 +223,7 @@
       "assets": {
         "js": {
           "sync": [
+            "922.bundle.js",
             "84.bundle.js"
           ],
           "async": []

@@ -1,15 +1,15 @@
 {
-  "id": "3d.player",
-  "name": "3d.player",
+  "id": "tools",
+  "name": "tools",
   "metaData": {
-    "name": "3d.player",
+    "name": "tools",
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.1",
-      "buildName": "@reneos/3d.player"
+      "buildName": "@reneos/3d.mods.tools"
     },
     "remoteEntry": {
-      "name": "",
+      "name": "mf.js",
       "path": "",
       "type": "global"
     },
@@ -19,10 +19,10 @@
       "zip": "",
       "api": ""
     },
-    "globalName": "3d.player",
+    "globalName": "tools",
     "pluginVersion": "0.13.1",
     "prefetchInterface": false,
-    "publicPath": "/player/"
+    "publicPath": "/mods/tools/"
   },
   "shared": [
     {
@@ -34,50 +34,56 @@
       "shareKey": "@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
-      "id": "3d.player:@reneos/app",
+      "id": "tools:@reneos/app",
       "assets": {
         "js": {
           "async": [],
           "sync": [
+            "mf.js",
             "bundle.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main.css"
-          ]
+          "sync": []
         }
       },
-      "usedIn": []
-    },
+      "usedIn": [
+        "./tools"
+      ]
+    }
+  ],
+  "remotes": [
     {
-      "singleton": true,
-      "requiredVersion": "^3.5.13",
-      "shareScope": "default",
-      "import": "vue",
-      "shareKey": "vue",
-      "eager": true,
-      "name": "vue",
-      "version": "3.5.13",
-      "id": "3d.player:vue",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "bundle.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": [
-            "main.css"
-          ]
-        }
-      },
+      "alias": "tools",
+      "moduleName": "UNKNOWN",
+      "version": "/tools/mod.mf.js",
+      "federationContainerName": "tools",
+      "consumingFederationContainerName": "tools",
       "usedIn": []
     }
   ],
-  "remotes": [],
-  "exposes": []
+  "exposes": [
+    {
+      "path": "./tools",
+      "id": "tools:tools",
+      "name": "tools",
+      "requires": [
+        "@reneos/app"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "993.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
 }

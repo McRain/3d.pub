@@ -44,6 +44,26 @@
           "sync": []
         }
       }
+    },
+    {
+      "id": "tools:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
     }
   ],
   "remotes": [
@@ -63,14 +83,79 @@
           "sync": [
             "993.bundle.js"
           ],
-          "async": []
+          "async": [
+            "712.bundle.js",
+            "157.bundle.js",
+            "691.bundle.js"
+          ]
         },
         "css": {
           "sync": [],
-          "async": []
+          "async": [
+            "712.css",
+            "157.css",
+            "691.css"
+          ]
         }
       },
       "path": "./tools"
+    },
+    {
+      "id": "tools:GoToUI",
+      "name": "GoToUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "955.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GoToUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./GoToUI"
+    },
+    {
+      "id": "tools:BackSlideUI",
+      "name": "BackSlideUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "330.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_BackSlideUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./BackSlideUI"
+    },
+    {
+      "id": "tools:NextSlideUI",
+      "name": "NextSlideUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "628.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_NextSlideUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./NextSlideUI"
     }
   ]
 }

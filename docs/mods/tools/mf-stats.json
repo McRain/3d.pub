@@ -51,6 +51,33 @@
       "usedIn": [
         "./tools"
       ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "shareScope": "default",
+      "import": "vue",
+      "shareKey": "vue",
+      "eager": true,
+      "name": "vue",
+      "version": "3.5.13",
+      "id": "tools:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./tools"
+      ]
     }
   ],
   "remotes": [
@@ -69,7 +96,8 @@
       "id": "tools:tools",
       "name": "tools",
       "requires": [
-        "@reneos/app"
+        "@reneos/app",
+        "vue"
       ],
       "file": "src\\index.mf.js",
       "assets": {
@@ -77,10 +105,81 @@
           "sync": [
             "993.bundle.js"
           ],
-          "async": []
+          "async": [
+            "712.bundle.js",
+            "157.bundle.js",
+            "691.bundle.js"
+          ]
         },
         "css": {
           "sync": [],
+          "async": [
+            "712.css",
+            "157.css",
+            "691.css"
+          ]
+        }
+      }
+    },
+    {
+      "path": "./GoToUI",
+      "id": "tools:GoToUI",
+      "name": "GoToUI",
+      "requires": [],
+      "file": "src\\actions\\GoToUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "955.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GoToUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./BackSlideUI",
+      "id": "tools:BackSlideUI",
+      "name": "BackSlideUI",
+      "requires": [],
+      "file": "src\\actions\\BackSlideUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "330.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_BackSlideUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./NextSlideUI",
+      "id": "tools:NextSlideUI",
+      "name": "NextSlideUI",
+      "requires": [],
+      "file": "src\\actions\\NextSlideUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "628.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_NextSlideUI.css"
+          ],
           "async": []
         }
       }

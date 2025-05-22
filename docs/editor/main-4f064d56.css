@@ -1243,24 +1243,24 @@ li[data-v-562df7a6]{display:flex;flex-direction:row;align-items:left}li span[dat
 
 
 .title {
-&[data-v-48bc52b0] {
+&[data-v-370ef20a] {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 3px;
     gap: 5px;
 }
-.label[data-v-48bc52b0] {
+.label[data-v-370ef20a] {
         flex: 1;
         display: flex;
         align-items: flex-end;
         justify-content: flex-start;
 }
-.tools[data-v-48bc52b0] {}
-.titleinfo[data-v-48bc52b0] {
+.tools[data-v-370ef20a] {}
+.titleinfo[data-v-370ef20a] {
         flex: 1;
 }
-&.min[data-v-48bc52b0] {
+&.min[data-v-370ef20a] {
         justify-content: flex-start;
 }
 }

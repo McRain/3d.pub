@@ -84,6 +84,33 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^0.176.0",
+      "shareScope": "default",
+      "import": "three",
+      "shareKey": "three",
+      "eager": true,
+      "name": "three",
+      "version": "0.176.0",
+      "id": "tweens:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./TweenRotate"
+      ]
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^3.5.13",
       "shareScope": "default",
       "import": "vue",
@@ -156,7 +183,6 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "908.bundle.js"
           ],
           "async": []
@@ -260,7 +286,6 @@
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "234.bundle.js"
           ],
           "async": []
@@ -278,13 +303,13 @@
       "id": "tweens:TweenRotate",
       "name": "TweenRotate",
       "requires": [
-        "@tweenjs/tween.js"
+        "@tweenjs/tween.js",
+        "three"
       ],
       "file": "src\\tweens\\TweenRotate.js",
       "assets": {
         "js": {
           "sync": [
-            "922.bundle.js",
             "84.bundle.js"
           ],
           "async": []

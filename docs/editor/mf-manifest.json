@@ -34,25 +34,23 @@
       "assets": {
         "js": {
           "async": [
-            "654.661d9ef3.chunk.js"
+            "654.92c6f0ee.chunk.js"
           ],
           "sync": [
-            "vendors-27545368.332f7008.js",
-            "vendors-eaa1e0b2.6e9fc93b.js",
-            "vendors-121455fa.d4464346.js",
-            "vendors-17c34557.3c302a37.js",
-            "main-9a8b795a.e99a2167.js",
-            "main-8ed0fac5.b96ca2f0.js",
-            "main-f16aa68b.b172eb66.js",
-            "main-bd64fb6c.de3dba58.js",
-            "main-afbe97b7.2930fff0.js",
-            "main-84781932.ad8c710e.js"
+            "vendors-27545368.335d00b9.js",
+            "vendors-eaa1e0b2.9e441262.js",
+            "vendors-121455fa.10749c04.js",
+            "vendors-17c34557.ccdad0e4.js",
+            "main-bde52cb3.eae55c5a.js",
+            "main-f16aa68b.63c19ab2.js",
+            "main-31743c5a.e458656b.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "main-4f064d56.css"
+            "main-4f064d56.css",
+            "main-31743c5a.css"
           ]
         }
       }
@@ -66,25 +64,23 @@
       "assets": {
         "js": {
           "async": [
-            "654.661d9ef3.chunk.js"
+            "654.92c6f0ee.chunk.js"
           ],
           "sync": [
-            "vendors-121455fa.d4464346.js",
-            "vendors-27545368.332f7008.js",
-            "vendors-eaa1e0b2.6e9fc93b.js",
-            "vendors-17c34557.3c302a37.js",
-            "main-9a8b795a.e99a2167.js",
-            "main-8ed0fac5.b96ca2f0.js",
-            "main-f16aa68b.b172eb66.js",
-            "main-bd64fb6c.de3dba58.js",
-            "main-afbe97b7.2930fff0.js",
-            "main-84781932.ad8c710e.js"
+            "vendors-121455fa.10749c04.js",
+            "vendors-27545368.335d00b9.js",
+            "vendors-eaa1e0b2.9e441262.js",
+            "vendors-17c34557.ccdad0e4.js",
+            "main-bde52cb3.eae55c5a.js",
+            "main-f16aa68b.63c19ab2.js",
+            "main-31743c5a.e458656b.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "main-4f064d56.css"
+            "main-4f064d56.css",
+            "main-31743c5a.css"
           ]
         }
       }
@@ -98,25 +94,23 @@
       "assets": {
         "js": {
           "async": [
-            "654.661d9ef3.chunk.js"
+            "654.92c6f0ee.chunk.js"
           ],
           "sync": [
-            "vendors-27545368.332f7008.js",
-            "vendors-eaa1e0b2.6e9fc93b.js",
-            "vendors-121455fa.d4464346.js",
-            "vendors-17c34557.3c302a37.js",
-            "main-9a8b795a.e99a2167.js",
-            "main-8ed0fac5.b96ca2f0.js",
-            "main-f16aa68b.b172eb66.js",
-            "main-bd64fb6c.de3dba58.js",
-            "main-afbe97b7.2930fff0.js",
-            "main-84781932.ad8c710e.js"
+            "vendors-27545368.335d00b9.js",
+            "vendors-eaa1e0b2.9e441262.js",
+            "vendors-121455fa.10749c04.js",
+            "vendors-17c34557.ccdad0e4.js",
+            "main-bde52cb3.eae55c5a.js",
+            "main-f16aa68b.63c19ab2.js",
+            "main-31743c5a.e458656b.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "main-4f064d56.css"
+            "main-4f064d56.css",
+            "main-31743c5a.css"
           ]
         }
       }
